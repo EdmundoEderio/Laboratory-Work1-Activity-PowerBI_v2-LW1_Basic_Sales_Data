@@ -7,8 +7,17 @@
 Data View Verification
 1. Default Data Types (Before Correction) Sreenshot showing the data typews as initialy loaded by Power BI.
 
-![date](date.png)
-![date](product.png)
-![date](category.png)
-![date](region.png)
-![date](sales.png)
+## DATE UNCHANGE
+![](Screenshots/date.png) <br>
+---
+## PRODUCT UNCHANGE
+![](Screenshots/product.png)
+---
+## CATEGORY UNCHANGE
+![](Screenshots/category.png)
+---
+## REGION UNCHANGE
+![](Screenshots/region.png)
+---
+## SALES UNCHANGE
+![](Screenshots/sales.png) <br>
