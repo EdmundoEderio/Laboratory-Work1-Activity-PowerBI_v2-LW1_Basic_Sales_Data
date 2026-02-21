@@ -49,5 +49,14 @@ Product/Category/Region: Formatted as Text datatype by default.
 # Part 3: Creating Auto-Generated Visuals
 ---
 ## Step 1: Quick Visualization
+![](Screenshots/sales_visual.png)
+Questions:
 
-![](Screenshots/sales_value.png)
+What type of chart was created?
+  Answer: Power BI automatically created a Clustered Column Chart.
+What does it show?
+  Answer: It shows the total sum of sales across the entire dataset represented as a single bar.
+
+## Step 2: Sales by Region Chart
+
+
