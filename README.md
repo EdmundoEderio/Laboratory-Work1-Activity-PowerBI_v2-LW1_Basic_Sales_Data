@@ -1,134 +1,127 @@
-# Laboratory-Work1-Activity-PowerBI_v2-LW1_Basic_Sales_Data
+# Laboratory Work 1 — Power BI Basic Sales Data
 
-### Student Name: Edmundo C. Ederio Jr
+**Student Name:** Edmundo C. Ederio Jr. <br>
+**File:** LW1_Basic_Sales_Data
+
+---
 
 ## Part 1 & 2: Loading Data and Interface
 
-Data View Verification
-1. Default Data Types (Before Correction) Sreenshot showing the data typews as initialy loaded by Power BI.
+### Data View Verification
 
-## DATE UNCHANGE
-![](Screenshots/date.png) <br>
----
-## PRODUCT UNCHANGE
-![](Screenshots/product.png)
----
-## CATEGORY UNCHANGE
-![](Screenshots/category.png)
----
-## REGION UNCHANGE
-![](Screenshots/region.png)
----
-## SALES UNCHANGE
-![](Screenshots/sales.png) <br>
----
-2. Corrected Data Types Screenshots showing the data types manual verification and adjustment.
+#### 1. Default Data Types *(Before Correction)*
+> Screenshots showing the data types as initially loaded by Power BI.
 
-## DATE UNCHANGE
-![](Screenshots/date.png) <br>
----
-## PRODUCT UNCHANGE
-![](Screenshots/product.png)
----
-## CATEGORY UNCHANGE
-![](Screenshots/category.png)
----
-## REGION UNCHANGE
-![](Screenshots/region.png)
----
-## SALES CHANGE TO DECIMAL NUMBER
-![](Screenshots/sales_decimal.png) <br>
+| Column | Screenshot |
+|--------|-----------|
+| Date | ![Date](Screenshots/date.png) |
+| Product | ![Product](Screenshots/product.png) |
+| Category | ![Category](Screenshots/category.png) |
+| Region | ![Region](Screenshots/region.png) |
+| Sales | ![Sales](Screenshots/sales.png) |
+
 ---
 
-Date: Formatted as Date datatype by default.
-Product/Sales/Category/Region/Date: All columns are visible.
-Product/Category/Region: Formatted as Text datatype by default.
+#### 2. Corrected Data Types *(After Manual Adjustment)*
+> Screenshots showing the data types after manual verification and adjustment.
 
-----
+| Column | Status | Screenshot |
+|--------|--------|-----------|
+| Date | ✅ Unchanged | ![Date](Screenshots/date.png) |
+| Product | ✅ Unchanged | ![Product](Screenshots/product.png) |
+| Category | ✅ Unchanged | ![Category](Screenshots/category.png) |
+| Region | ✅ Unchanged | ![Region](Screenshots/region.png) |
+| Sales | 🔄 Changed to Decimal Number | ![Sales Decimal](Screenshots/sales_decimal.png) |
 
-# Part 3: Creating Auto-Generated Visuals
----
-## Step 1: Quick Visualization
-![](Screenshots/sales_visual.png)
-Questions:
+**Summary of Data Types:**
+- **Date** — Formatted as `Date` datatype by default
+- **Product, Category, Region** — Formatted as `Text` datatype by default
+- **Sales** — Manually changed to `Decimal Number`
 
-What type of chart was created?
-  Answer: Power BI automatically created a Clustered Column Chart.
-What does it show?
-  Answer: It shows the total sum of sales across the entire dataset represented as a single bar.
-
-## Step 2: Sales by Region Chart
-![](Screenshots/sales_by_region.png)
-Questions:
-
-Which region has the highest sales?
-  Answer: The WEST region has the highest sales bar.
-
-## Step 3: Sales by Category
-![](Screenshots/sales_by_category.png)
-Questions:
-
-Which category dominates?
-  Answer: The Electronics category dominates the chart with the largest slice.
-Is the distribution balcanced?
-  Answer: No, the distribution is not balanced takes up 40.82% of the chart while "OFFICE          SUPPLIES" only takes up 19.99%.
-
-## Step 4: Sales Over Time
-![](Screenshots/sales_by_year.png)
-Questions:
-
-Is there growth?
-  Answer: No, there is a clear negative growth trend. Sales decrease from approximately 0.20M in   2024 to around 0.02M in 2025, indicating a substantial year-over-year decline.
-Any noticeable trend?
-  Answer: Sales seem to decline significantly at the end of every quarter.
----
-# Part 4: Basic Data Insight Interpretation
-Which region contributes most revenue?
-  Answer: Based on the column chart, the WEST Region contributes the most revenue.
-Which product category performs best?
-  Answer: ELECTRONICS is the best performing category.
-Are sales consistent across dates?
-  Answer: No, sales fluctuate. There are peaks in the middle of the month and dips at the start.
-What business recommendation can you suggest?
-  Answer: Since the WEST Region is performing well, we should investigate their marketing          strategy and apply it to the lower-performing NORTH Region.
-
-# ---
-# Laboratory Questions
 ---
 
-Part A - Technical Questions
-1. What are the five columns in the dataset?
-  Answer: Date, Product, Category, Region, Sales.
-2. What data type is assigned to the "Sales" column?
-  Answer: Decimal Number.
-3. Which Power BI view allows you to see raw data?
-  Answer: Data View.
-4. What chart type is best for showing trends over time?
-  Answer: Line Chart.
-5. What aggregation is automatically applied to Sales?
-  Answer: Sum (Summation).
-Part B - Analytical Questions
-6. Which region has the highest total sales?
-  Answer: The West Region.
-7. Which category has the lowest performance?
-  Answer: Office Supplies has the lowest performance.
-8. Are sales increasing, decreasing, or stable?
-  Answer: Sales are generally decreasing over the observed period.
-9. If you were a manager, which region would you prioritize?
-  Answer: I would prioritize the North Region because it has the lowest sales and needs            intervention to meet targets.
-10. Provide one actionable recommendation based on the data.
-  Answer: Increase inventory for "Electronics", as historical data shows a massive demand for      this category.
+## Part 3: Creating Auto-Generated Visuals
 
-# ---
-# Enhancement Section: Advanced Exploration
+### Step 1: Quick Visualization
+![Sales Visual](Screenshots/sales_visual.png)
+
+| Question | Answer |
+|----------|--------|
+| What type of chart was created? | Power BI automatically created a **Clustered Column Chart** |
+| What does it show? | It shows the total sum of sales across the entire dataset represented as a single bar |
+
 ---
 
+### Step 2: Sales by Region Chart
+![Sales by Region](Screenshots/sales_by_region.png)
 
+| Question | Answer |
+|----------|--------|
+| Which region has the highest sales? | The **WEST** region has the highest sales bar |
 
+---
 
+### Step 3: Sales by Category
+![Sales by Category](Screenshots/category_pie.png)
 
+| Question | Answer |
+|----------|--------|
+| Which category dominates? | The **Electronics** category dominates with the largest slice |
+| Is the distribution balanced? | **No.** Electronics takes up 40.82% while Office Supplies only takes up 19.99% |
 
+---
 
+### Step 4: Sales Over Time
+![Sales by Year](Screenshots/sales_by_year.png)
 
+| Question | Answer |
+|----------|--------|
+| Is there growth? | **No.** There is a clear negative growth trend. Sales decrease from approximately 0.20M in 2024 to around 0.02M in 2025, indicating a substantial year-over-year decline |
+| Any noticeable trend? | Sales seem to decline significantly at the end of every quarter |
 
+---
 
+## Part 4: Basic Data Insight Interpretation
+
+| Question | Answer |
+|----------|--------|
+| Which region contributes most revenue? | Based on the column chart, the **WEST Region** contributes the most revenue |
+| Which product category performs best? | **Electronics** is the best performing category |
+| Are sales consistent across dates? | **No.** Sales fluctuate — there are peaks in the middle of the month and dips at the start |
+| What business recommendation can you suggest? | Since the WEST Region is performing well, we should investigate their marketing strategy and apply it to the lower-performing **NORTH Region** |
+
+---
+
+## Laboratory Questions
+
+### Part A — Technical Questions
+
+| # | Question | Answer |
+|---|----------|--------|
+| 1 | What are the five columns in the dataset? | Date, Product, Category, Region, Sales |
+| 2 | What data type is assigned to the "Sales" column? | Decimal Number |
+| 3 | Which Power BI view allows you to see raw data? | Data View |
+| 4 | What chart type is best for showing trends over time? | Line Chart |
+| 5 | What aggregation is automatically applied to Sales? | Sum (Summation) |
+
+---
+
+### Part B — Analytical Questions
+
+| # | Question | Answer |
+|---|----------|--------|
+| 6 | Which region has the highest total sales? | The **West Region** |
+| 7 | Which category has the lowest performance? | **Office Supplies** has the lowest performance |
+| 8 | Are sales increasing, decreasing, or stable? | Sales are generally **decreasing** over the observed period |
+| 9 | If you were a manager, which region would you prioritize? | The **North Region** — it has the lowest sales and needs intervention to meet targets |
+| 10 | Provide one actionable recommendation based on the data. | Increase inventory for **Electronics**, as historical data shows massive demand for this category |
+
+---
+
+## Enhancement Section: Advanced Exploration
+
+> 🚧 *Coming soon — advanced visualizations and deeper analysis.*
+
+---
+
+*Laboratory Work 1 — Power BI | Edmundo C. Ederio Jr.*
