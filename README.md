@@ -21,3 +21,31 @@ Data View Verification
 ---
 ## SALES UNCHANGE
 ![](Screenshots/sales.png) <br>
+---
+2. Corrected Data Types Screenshots showing the data types manual verification and adjustment.
+
+## DATE UNCHANGE
+![](Screenshots/date.png) <br>
+---
+## PRODUCT UNCHANGE
+![](Screenshots/product.png)
+---
+## CATEGORY UNCHANGE
+![](Screenshots/category.png)
+---
+## REGION UNCHANGE
+![](Screenshots/region.png)
+---
+## SALES CHANGE TO DECIMAL NUMBER
+![](Screenshots/sales_decimal.png) <br>
+---
+
+Date: Formatted as Date datatype by default.
+Product/Sales/Category/Region/Date: All columns are visible.
+Product/Category/Region: Formatted as Text datatype by default.
+
+----
+
+# Part 3: Creating Auto-Generated Visuals
+---
+## Step 1: Quick Visualization
