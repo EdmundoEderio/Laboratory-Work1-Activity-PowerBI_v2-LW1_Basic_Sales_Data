@@ -49,3 +49,5 @@ Product/Category/Region: Formatted as Text datatype by default.
 # Part 3: Creating Auto-Generated Visuals
 ---
 ## Step 1: Quick Visualization
+
+![](Screenshots/sales_value.png)
