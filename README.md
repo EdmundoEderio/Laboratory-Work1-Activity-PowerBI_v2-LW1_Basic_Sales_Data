@@ -1,6 +1,6 @@
 # Laboratory Work 1 — Power BI Basic Sales Data
 
-**Student Name:** Edmundo C. Ederio Jr. <br>
+**Student Name:** Edmundo C. Ederio Jr.
 **File:** LW1_Basic_Sales_Data
 
 ---
@@ -43,6 +43,7 @@
 ## Part 3: Creating Auto-Generated Visuals
 
 ### Step 1: Quick Visualization
+
 ![Sales Visual](Screenshots/sales_visual.png)
 
 | Question | Answer |
@@ -53,6 +54,7 @@
 ---
 
 ### Step 2: Sales by Region Chart
+
 ![Sales by Region](Screenshots/sales_by_region.png)
 
 | Question | Answer |
@@ -62,6 +64,7 @@
 ---
 
 ### Step 3: Sales by Category
+
 ![Sales by Category](Screenshots/category_pie.png)
 
 | Question | Answer |
@@ -72,6 +75,7 @@
 ---
 
 ### Step 4: Sales Over Time
+
 ![Sales by Year](Screenshots/sales_by_year.png)
 
 | Question | Answer |
@@ -120,7 +124,44 @@
 
 ## Enhancement Section: Advanced Exploration
 
-> 🚧 *Coming soon — advanced visualizations and deeper analysis.*
+### Task 1: Card Visualization
+
+![Total Sales](Screenshots/total_sales.png)
+
+| Question | Answer |
+|----------|--------|
+| What is the total sales amount? | **220,229** |
+
+---
+
+### Task 2: Slicer
+
+![All Region](Screenshots/all_region.png)
+
+| Question | Answer |
+|----------|--------|
+| What happens to other visuals when you click a region? | All other charts (Pie, Line, and Bar) change to show data **only** for the selected region |
+| Why is filtering important in BI? | It allows users to focus on specific areas of interest (like one specific region) to find granular insights without being overwhelmed by the whole dataset |
+
+---
+
+### Task 3: Sort Sales
+
+![Sort Region](Screenshots/sort_region.png)
+
+| Question | Answer |
+|----------|--------|
+| Does sorting improve readability? | **Yes** |
+| Why? | It makes it instantly clear which region is performing best and which is worst, without having to visually compare unorganized bar heights |
+
+---
+
+### Task 4: Identify Outliers
+
+| Question | Answer |
+|----------|--------|
+| Which region is significantly higher or lower? | The **North Region** is significantly lower compared to the others. While West (~59,041), East (~58,411), and South (~56,793) have relatively similar figures, North (~45,984) falls noticeably below this range — making it the clear lower outlier |
+| What might explain that difference? | Lower sales in the North Region may be due to a smaller customer base, lower market penetration, reduced marketing efforts, stronger competition, or logistical and distribution challenges within that region |
 
 ---
 
